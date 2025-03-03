@@ -6,9 +6,9 @@ import { getUserInput } from '../lib/prompt.js';
 (async () => {
     console.log("\nWelcome to create-express-app! 🚀\n");
 
-    const { projectName, addRoute } = await getUserInput();
+    const { projectName, template } = await getUserInput();
 
-    await setupProject(projectName, addRoute);
+    await setupProject(projectName, template);
     
     console.log("\nInstalling dependencies...📦");
     await installDependencies(projectName);
@@ -16,4 +16,3 @@ import { getUserInput } from '../lib/prompt.js';
     console.log("\nSetup complete! 🎉\nRun the following to start your app:\n");
     console.log(`cd ${projectName} && npm run dev`);
 })();
-

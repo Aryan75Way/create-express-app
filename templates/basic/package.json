@@ -1,0 +1,22 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "local": "nodemon",
+    "start": "ts-node .index.ts",
+    "dev": "pnpm run build && node ./dist/index.js",
+    "prod": "pnpm run build && node ./dist/index.js",
+    "build": "npx tsc"
+  },
+  "dependencies": {
+      "express": "latest"
+  },
+  "devDependencies": {
+      "@types/express": "latest",
+      "ts-node": "latest",
+      "nodemon": "latest",
+      "typescript": "latest"
+  }
+}
+

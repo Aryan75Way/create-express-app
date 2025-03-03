@@ -1,0 +1,50 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "local": "nodemon",
+    "start": "ts-node .index.ts",
+    "dev": "pnpm run build && node ./dist/index.js",
+    "prod": "pnpm run build && node ./dist/index.js",
+    "build": "npx tsc",
+    "lint": "eslint . --ext .ts,.js --max-warnings=0",
+    "lint:fix": "eslint --fix --ext .js,.ts .",
+    "format": "prettier . -w",
+    "format:check": "prettier . --check",
+    "postinstall": "husky install"
+  },
+  
+"devDependencies": {
+    "@types/bcrypt": "latest",
+    "@types/body-parser": "latest",
+    "@types/express": "latest",
+    "@types/http-errors": "latest",
+    "@types/jsonwebtoken": "latest",
+    "@types/morgan": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-config-standard-with-typescript": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-n": "latest",
+    "eslint-plugin-promise": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "prettier": "latest",
+    "ts-node": "latest",
+    "nodemon": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "bcrypt": "latest",
+    "body-parser": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-async-handler": "latest",
+    "express-validator": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "morgan": "latest"
+  }
+}
