@@ -18,11 +18,13 @@
 "devDependencies": {
     "@types/bcrypt": "latest",
     "@types/body-parser": "latest",
+    "@types/cors": "latest",
     "@types/express": "latest",
     "@types/http-errors": "latest",
     "@types/jsonwebtoken": "latest",
     "@types/morgan": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
+    "@types/swagger-ui-express": "latest",
     "eslint": "latest",
     "eslint-config-prettier": "latest",
     "eslint-config-standard-with-typescript": "latest",
@@ -37,8 +39,10 @@
     "typescript": "latest"
   },
   "dependencies": {
+    "swagger-ui-express": "latest",
     "bcrypt": "latest",
     "body-parser": "latest",
+    "cors": "latest",
     "dotenv": "latest",
     "express": "latest",
     "express-async-handler": "latest",
