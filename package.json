@@ -1,0 +1,19 @@
+{
+  "name": "create-express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "type": "module",
+  "bin": {
+    "create-express-app": "bin/index.js"
+  },
+  "scripts": {
+    "test": "node bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}

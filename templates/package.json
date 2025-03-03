@@ -1,0 +1,19 @@
+{
+    "name": "express-app",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "nodemon src/index.ts",
+        "start": "ts-node src/index.ts"
+    },
+    "dependencies": {
+        "express": "latest"
+    },
+    "devDependencies": {
+        "@types/express": "latest",
+        "ts-node": "latest",
+        "nodemon": "latest",
+        "typescript": "latest"
+    }
+}
+
