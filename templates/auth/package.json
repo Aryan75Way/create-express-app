@@ -16,14 +16,19 @@
   },
   
 "devDependencies": {
+    "@types/bcryptjs": "latest",
+    "@types/bcrypt": "latest",
     "@types/body-parser": "latest",
     "@types/cors": "latest",
     "@types/express": "latest",
     "@types/http-errors": "latest",
     "@types/jsonwebtoken": "latest",
     "@types/morgan": "latest",
-    "@typescript-eslint/eslint-plugin": "latest",
+    "@types/passport": "latest",
+    "@types/passport-jwt": "latest",
+    "@types/passport-local": "latest",
     "@types/swagger-ui-express": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
     "eslint": "latest",
     "eslint-config-prettier": "latest",
     "eslint-config-standard-with-typescript": "latest",
@@ -39,6 +44,7 @@
   },
   "dependencies": {
     "swagger-ui-express": "latest",
+    "bcryptjs": "latest",
     "body-parser": "latest",
     "cors": "latest",
     "dotenv": "latest",
@@ -47,6 +53,9 @@
     "express-validator": "latest",
     "jsonwebtoken": "latest",
     "mongoose": "latest",
-    "morgan": "latest"
+    "morgan": "latest",
+    "passport": "latest",
+    "passport-jwt": "latest",
+    "passport-local": "latest"
   }
 }
